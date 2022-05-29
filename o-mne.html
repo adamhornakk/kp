@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--Moje css-->
+    <link rel="stylesheet" href="style2.css">
+        <!--Fonty-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--AOS - Animate on scroll library css-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="logo"><img src="logo0.png" alt="logo"></div>
+                <ul>
+                    <li><a href="index.html">Domů</a></li>
+                    <li><a href="moje-prace.html">Moje práce</a></li>
+                </ul>
+
+
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="index.html">DOMŮ</a>
+                    <a href="o-mne.html">O MNĚ</a>
+                    <a href="moje-prace.html">MOJE PRÁCE</a>
+                    <a href="kontakt.html">KONTAKT</a>
+                  </div>
+
+                  <span class="moovement" style="font-size:50px;cursor:pointer" onclick="openNav()">&#9776;</span>
+                  
+                  <script>
+                  function openNav() {
+                    document.getElementById("mySidenav").style.width = "250px";
+                  }
+                  
+                  function closeNav() {
+                    document.getElementById("mySidenav").style.width = "0";
+                  }
+                  </script>
+
+
+
+        </div>
+    </nav>
+<h1 class="up">Adam <br> Horňák</h1>
+<div class="header"></div>
+
+<div class="testbounce scroll">
+    <p>Scroll down to see more</p>
+</div>
+<div class="arrow bounce">
+<a href="#vs" class="material-icons">expand_more</a>
+</div>
+
+
+    <div class="more-info" id="vs">
+        <h1>Ahoj</h1>
+
+
+
+    </div>
+</body>
+</html>
