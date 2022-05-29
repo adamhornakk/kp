@@ -96,7 +96,6 @@ p {
 /*COPIED - NAV SLIDE BAR*/
 
 .sidenav {
-    border: 1px solid red;
     height: 100%;
     width: 0;
     position: fixed;
